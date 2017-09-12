@@ -2,14 +2,12 @@ package secciondos
 
 fun main(args: Array<String>){
 
-    println("Ingresa la cantidad de productos: ")
+    println("Escribe un numero:")
 
-    val cantidadProductos = readLine()!!.toInt()
+    val numero = readLine()!!.toInt()
 
-    println("Ingresa el precio unitario: ")
+    val perimetro = numero*4
 
-    val precioUnitario = readLine()!!.toInt()
-
-    println("El total a pagar es: " + (cantidadProductos * precioUnitario))
+    println("El perimetro es $perimetro")
 
 }
